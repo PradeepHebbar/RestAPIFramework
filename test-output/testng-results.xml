@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5892" started-at="2017-08-11T10:38:51Z" finished-at="2017-08-11T10:38:57Z">
+    <groups>
+    </groups>
+    <test name="Batch ecexution" duration-ms="5892" started-at="2017-08-11T10:38:51Z" finished-at="2017-08-11T10:38:57Z">
+      <class name="com.tests.TestDelete">
+        <test-method status="PASS" signature="testDeleteServices(java.util.Hashtable)[pri:0, instance:com.tests.TestDelete@3532ec19]" name="testDeleteServices" duration-ms="259" started-at="2017-08-11T16:08:57Z" data-provider="testData" finished-at="2017-08-11T16:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Endpoint=/posts/1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteServices -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tests.TestDelete@3532ec19]" name="closeDriver" is-config="true" duration-ms="202" started-at="2017-08-11T16:08:57Z" finished-at="2017-08-11T16:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tests.TestGet@29774679]" name="closeDriver" is-config="true" duration-ms="36" started-at="2017-08-11T16:08:57Z" finished-at="2017-08-11T16:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tests.TestPatch@5e5792a0]" name="closeDriver" is-config="true" duration-ms="29" started-at="2017-08-11T16:08:57Z" finished-at="2017-08-11T16:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tests.TestPost@26653222]" name="closeDriver" is-config="true" duration-ms="27" started-at="2017-08-11T16:08:57Z" finished-at="2017-08-11T16:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.tests.TestPut@3ffc5af1]" name="closeDriver" is-config="true" duration-ms="24" started-at="2017-08-11T16:08:57Z" finished-at="2017-08-11T16:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.tests.TestDelete -->
+      <class name="com.tests.TestPut">
+        <test-method status="PASS" signature="testPutServices(java.util.Hashtable)[pri:0, instance:com.tests.TestPut@3ffc5af1]" name="testPutServices" duration-ms="974" started-at="2017-08-11T16:08:54Z" data-provider="testData" finished-at="2017-08-11T16:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedID=1, UserID=10, StatusCode=200, Title=Welcome to webservice Automation, ExpectedBodyAttributes=ExpectedUserID,ExpectedID,ExpectedBody,ExpectedTitle, ID=5, Endpoint=/posts/1, ExpectedUserID=10, ExpectedBody=Pradeep, BodyAttributes=UserID,ID,Title,Body, Body=Pradeep, ExpectedTitle=Welcome to webservice Automation}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutServices -->
+      </class> <!-- com.tests.TestPut -->
+      <class name="com.tests.TestGet">
+        <test-method status="PASS" signature="testGetServices(java.util.Hashtable)[pri:0, instance:com.tests.TestGet@29774679]" name="testGetServices" duration-ms="1376" started-at="2017-08-11T16:08:52Z" data-provider="testData" finished-at="2017-08-11T16:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Endpoint=/posts/1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServices -->
+        <test-method status="PASS" signature="testGetServices(java.util.Hashtable)[pri:0, instance:com.tests.TestGet@29774679]" name="testGetServices" duration-ms="215" started-at="2017-08-11T16:08:53Z" data-provider="testData" finished-at="2017-08-11T16:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Endpoint=/posts/1/comments}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServices -->
+        <test-method status="PASS" signature="testGetServices(java.util.Hashtable)[pri:0, instance:com.tests.TestGet@29774679]" name="testGetServices" duration-ms="231" started-at="2017-08-11T16:08:53Z" data-provider="testData" finished-at="2017-08-11T16:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Endpoint=/posts}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServices -->
+        <test-method status="PASS" signature="testGetServices(java.util.Hashtable)[pri:0, instance:com.tests.TestGet@29774679]" name="testGetServices" duration-ms="244" started-at="2017-08-11T16:08:54Z" data-provider="testData" finished-at="2017-08-11T16:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Endpoint=/comments?postId=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServices -->
+        <test-method status="FAIL" signature="testGetServices(java.util.Hashtable)[pri:0, instance:com.tests.TestGet@29774679]" name="testGetServices" duration-ms="222" started-at="2017-08-11T16:08:54Z" data-provider="testData" finished-at="2017-08-11T16:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=201, Endpoint=/posts?userId=1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.exceptions.WebServicesException">
+            <message>
+              <![CDATA[java.lang.Throwable: Failed to validate status code of the response]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.exceptions.WebServicesException: java.lang.Throwable: Failed to validate status code of the response
+	at com.utilities.CustomKeywords.validateStatusCode(CustomKeywords.java:168)
+	at com.tests.TestGet.testGetServices(TestGet.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.Throwable: Failed to validate status code of the response
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.exceptions.WebServicesException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServices -->
+      </class> <!-- com.tests.TestGet -->
+      <class name="com.tests.TestPost">
+        <test-method status="PASS" signature="testPostServices(java.util.Hashtable)[pri:0, instance:com.tests.TestPost@26653222]" name="testPostServices" duration-ms="703" started-at="2017-08-11T16:08:56Z" data-provider="testData" finished-at="2017-08-11T16:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedID=5, UserID=10, StatusCode=201, Title=Welcome to webservice Automation, ExpectedBodyAttributes=ExpectedUserID,ExpectedID,ExpectedBody,ExpectedTitle, ID=5, Endpoint=/posts, ExpectedUserID=10, ExpectedBody=Pradeep, BodyAttributes=UserID,ID,Title,Body, Body=Pradeep, ExpectedTitle=Welcome to webservice Automation}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostServices -->
+      </class> <!-- com.tests.TestPost -->
+      <class name="com.tests.TestPatch">
+        <test-method status="PASS" signature="testPatchServices(java.util.Hashtable)[pri:0, instance:com.tests.TestPatch@5e5792a0]" name="testPatchServices" duration-ms="675" started-at="2017-08-11T16:08:55Z" data-provider="testData" finished-at="2017-08-11T16:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, ExpectedBodyAttributes=ExpectedUserID, UserID=10, ExpectedUserID=10, BodyAttributes=UserID, Endpoint=/posts/1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchServices -->
+      </class> <!-- com.tests.TestPatch -->
+    </test> <!-- Batch ecexution -->
+  </suite> <!-- Suite -->
+</testng-results>
